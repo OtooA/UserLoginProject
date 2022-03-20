@@ -3,6 +3,10 @@
   <groupId>UserLogin</groupId>
   <artifactId>UserLogin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+ 	<maven.compiler.source>16</maven.compiler.source>
+ 	<maven.compiler.target>16</maven.compiler.target>
+  </properties>
   <dependencies>
   	<dependency>
   		<groupId>com.googlecode.json-simple</groupId>
