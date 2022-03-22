@@ -22,9 +22,12 @@ $ mvn exec:java -Dexec.mainClass="userLogin.userLogin"
 ```
 
 # Additional Notes
-* The user needs to create a JSON file that lists where the database is stored locally
+* The user needs to create a JSON file that lists where the database is stored locally. This is one example of a JSON file:
+![DatabaseLocationJSONFormat](https://user-images.githubusercontent.com/96898308/159409006-e13cf265-60ca-4152-a849-e749bb1f5d23.PNG)
 * In UpdateSQLiteDatabase.java Line 24 should be changed to the location of the aforementioned JSON file
+![UpdateSQLiteDatabaseScreenshot](https://user-images.githubusercontent.com/96898308/159409361-01ce13de-67a9-48f8-89d9-9bedfe29e391.PNG)
 * In the project pom.xml be sure that both maven.compiler.source and maven.compiler.target are set to the latest Java version installed on your PC
+![pom xml settings screenshot](https://user-images.githubusercontent.com/96898308/159409663-266a8a9d-b2c8-4ff2-b0c2-da3ab08c9eef.PNG)
 
 # Installation
 * Apache Maven (https://maven.apache.org/install.html)
